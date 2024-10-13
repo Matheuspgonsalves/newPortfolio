@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* Resets */
+body {
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+/* Navbar inicio */
+#nav {
+    height: 10vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    padding: 0.5rem;
+}
+
+.menu {
+    display: flex;
+    height: 100%;
+    width: 600px;
+    justify-content: center;
+    align-items: center;
+    background-color: #78716ca8;
+    border-radius: 5rem;
+}
+
+.container-links {
+    display: flex;
+}
+
+.links {
+    margin: 0 0.5rem 0 0.5rem;
+    padding: 0.4rem;
+    transition: all 0.2s;
+}
+
+.links a {
+    position: relative;
+    text-decoration: none;
+    font-family: "Montserrat";
+    font-weight: 500;
+    font-size: 14px;
+    color: white;
+    transition: 100ms;
+}
+
+
+.links a::before {
+    position: absolute;
+    content: '';
+    background-color: transparent; 
+    height: 2px;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    border-radius: 200px;
+    transition: background-color 200ms; 
+}
+
+
+.links a:hover::before {
+    background-color: aliceblue; 
+}
+
+
+
+.drop {
+    position: relative;
+    padding: 0.4rem;
+}
+
+.dropdown-menu {
+    background-color: #374151; /* Cor do fundo do dropdown */
+    border-radius: 0.5rem; /* Arredondar bordas do dropdown */
+}
+
+.dropdown-item {
+    color: white; /* Cor do texto do item */
+}
+
+.dropdown-item:hover {
+    background-color: rgb(231, 227, 222); /* Cor ao passar o mouse */
+    color: black; /* Cor do texto ao passar o mouse */
+}
+
+/* Navbar fim */
+
+/* Home inicio */
+
+.home {
+    height: 90vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.apresentation {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-apresentation {
+    width: 70%;
+    font-family: "Montserrat", sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container-apresentation h1 {
+    font-size: 36px;
+}
+
+.container-apresentation p {
+    font-size: 20px;
+    text-align: justify;
+}
+
+.myself {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.photo {
+    display: flex;
+    
+}
+
+.photo img{
+    width: 400px;
+    border: 3px solid #78716c;
+}
+
+#typed-output {
+    font-size: 2rem; /* Tamanho da fonte */
+    white-space: nowrap; /* Impede quebras de linha */
+}
+
