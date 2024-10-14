@@ -3,16 +3,17 @@
     "builds": [
         { "src": "HTML/*.html", "use": "@vercel/static" },
         { "src": "CSS/**/*.css", "use": "@vercel/static" },
-        { "src": "Js/**/*.js", "use": "@vercel/static" }
+        { "src": "Js/**/*.js", "use": "@vercel/static" },
+        { "src": "img/**/*", "use": "@vercel/static" }  
     ],
     "routes": [
         {
             "src": "/",
-            "dest": "/HTML/index.html"
+            "dest": "/HTML/index.html" 
         },
         {
             "src": "/en",
-            "dest": "/HTML/index-en.html"
+            "dest": "/HTML/index-en.html" 
         }
     ]
 }
