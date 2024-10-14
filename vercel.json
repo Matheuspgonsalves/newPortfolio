@@ -8,11 +8,11 @@
     "routes": [
         {
             "src": "/",
-            "dest": "/HTML/index.html" 
+            "dest": "/HTML/index.html"
         },
         {
             "src": "/en",
-            "dest": "/HTML/index-en.html" 
+            "dest": "/HTML/index-en.html"
         }
     ]
 }
