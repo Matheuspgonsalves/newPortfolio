@@ -16,15 +16,16 @@ body {
     display: flex;
     justify-content: center;
     padding: 0.5rem;
+    z-index: 10;
 }
 
 .menu {
     display: flex;
     height: 100%;
-    width: 600px;
+    width: 450px;
     justify-content: center;
     align-items: center;
-    background-color: #78716ca8;
+    background-color: #78716ccc;
     border-radius: 5rem;
 }
 
@@ -222,7 +223,66 @@ body {
 
 /* skills start */
 
+#skills {
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
+.skills-title {
+    margin-bottom: 4rem;
+}
+
+.skills-title h2 {
+    font-family: "Montserrat";
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.container-skills {
+    width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: start;
+}
+
+.icon-skill {
+    text-align: center;
+}
+
+.icon-skill svg{
+    height: 80px;
+    width: 80px;
+}
+
+.icon-skill {
+    font-family: "Montserrat";
+    font-weight: bolder;
+}
 
 /* skills end */
 
+/* contact start */
+
+#contact {
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title-contact h2 {
+    font-family: "Montserrat";
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.form-contact {
+    
+}
+
+/* contact end */
